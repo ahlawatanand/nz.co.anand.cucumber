@@ -33,7 +33,7 @@ formatter.match({
   "location": "TrelloLoginPageSD.user_is_on_trello_homepage()"
 });
 formatter.result({
-  "duration": 7574748703,
+  "duration": 6877800154,
   "status": "passed"
 });
 formatter.match({
@@ -50,7 +50,7 @@ formatter.match({
   "location": "TrelloLoginPageSD.user_clicks_on_Login_button_with_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 2227651223,
+  "duration": 2090227570,
   "status": "passed"
 });
 formatter.match({
@@ -63,7 +63,7 @@ formatter.match({
   "location": "TrelloLoginPageSD.login_error_message_is_displayed(String)"
 });
 formatter.result({
-  "duration": 701244284,
+  "duration": 690358028,
   "status": "passed"
 });
 });

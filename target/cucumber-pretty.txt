@@ -1,0 +1,6 @@
+Feature: Trello
+
+  Scenario: Trello Invalid login                                                     [90m# features/trello.feature:3[0m
+    [32mGiven [0m[32muser is on trello homepage[0m                                                 [90m# TrelloLoginPageSD.user_is_on_trello_homepage()[0m
+    [32mWhen [0m[32muser clicks on Login button with '[0m[32m[1musername[0m[32m' and '[0m[32m[1mpassword[0m[32m'[0m                  [90m# TrelloLoginPageSD.user_clicks_on_Login_button_with_username_and_password(String,String)[0m
+    [32mThen [0m[32mLogin error message is displayed '[0m[32m[1mThere isn't an account for this username[0m[32m'[0m [90m# TrelloLoginPageSD.login_error_message_is_displayed(String)[0m

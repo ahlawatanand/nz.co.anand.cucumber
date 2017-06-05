@@ -1,0 +1,56 @@
+[
+  {
+    "source": "^Login error message is displayed \u0027(.*)\u0027$",
+    "steps": [
+      {
+        "name": "Login error message is displayed \u0027There isn\u0027t an account for this username\u0027",
+        "aggregatedDurations": {
+          "average": 0.690358028,
+          "median": 0.690358028
+        },
+        "durations": [
+          {
+            "duration": 0.690358028,
+            "location": "features/trello.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is on trello homepage$",
+    "steps": [
+      {
+        "name": "user is on trello homepage",
+        "aggregatedDurations": {
+          "average": 6.877800154,
+          "median": 6.877800154
+        },
+        "durations": [
+          {
+            "duration": 6.877800154,
+            "location": "features/trello.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user clicks on Login button with \u0027(.*)\u0027 and \u0027(.*)\u0027$",
+    "steps": [
+      {
+        "name": "user clicks on Login button with \u0027username\u0027 and \u0027password\u0027",
+        "aggregatedDurations": {
+          "average": 2.09022757,
+          "median": 2.09022757
+        },
+        "durations": [
+          {
+            "duration": 2.09022757,
+            "location": "features/trello.feature:5"
+          }
+        ]
+      }
+    ]
+  }
+]
